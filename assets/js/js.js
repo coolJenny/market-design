@@ -1,3 +1,7 @@
+function init(){
+	new SmoothScroll(document,120,12)
+}
+
 function SmoothScroll(target, speed, smooth) {
 	if (target == document)
         target = (document.documentElement || document.body.parentNode || document.body) // cross browser support for document scrolling
@@ -43,9 +47,6 @@ function SmoothScroll(target, speed, smooth) {
     		}
     		);
     }()
-}
-function init(){
-	new SmoothScroll(document,120,12)
 }
 
 $(document).ready(function(){
@@ -98,6 +99,6 @@ $(document).ready(function(){
 		$("html, body").animate({scrollTop: $("#contact-section").offset().top}, 1000);
 		return false;
 	});
-	
+
 
 });

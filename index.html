@@ -19,10 +19,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+<script type="text/javascript" src="assets/js/wow.min.js"></script>
 <script src="assets/js/js.js"></script>
 
 </head>
-<body>
+<body onload="init();">
 	<!--.preloader-->
 	<div id="preloader"> <i class="fa fa-spinner fa-spin"></i></div>
 	<!--/.preloader-->
@@ -37,7 +38,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li class="active"><a href="#">Buy on fosefi</a></li>
 				<li><a href="#">Rquest a demo</a></li>
-				<li><a href="#">Contact us</a></li>
+				<li><a href="javascript:void(0)" class="contact-us">Contact us</a></li>
 				<li><a href="#">About us</a></li>
 				<li><a href="#">Resgister</a></li>
 				<li><a href="#" class="nav-login">Login</a></li>
@@ -61,7 +62,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#">Buy on fosefi</a></li>
 					<li><a href="#">Rquest a demo</a></li>
-					<li><a href="#">Contact us</a></li>
+					<li><a href="javascript:void(0)" class="contact-us">Contact us</a></li>
 					<li><a href="#">About us</a></li>
 					<li><a href="#">Resgister</a></li>
 					<li><a href="#" class="nav-login">Login</a></li>

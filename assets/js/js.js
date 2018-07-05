@@ -52,10 +52,6 @@ $(document).ready(function(){
 
 });
 
-function init(){
-	new SmoothScroll(document,120,12)
-}
-
 function SmoothScroll(target, speed, smooth) {
 	if (target == document)
         target = (document.documentElement || document.body.parentNode || document.body) // cross browser support for document scrolling
